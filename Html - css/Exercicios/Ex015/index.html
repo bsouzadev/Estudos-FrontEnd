@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif; /*aqui se muda a fonte, posso colocar tipos de fonte em itens diferentes (p, h2, h1, main, div...). */
+            font-size: 1rem; /*altura da letra, se recomenda fortemente usar a medida relativa em ou px, para titulos se usa rem, e para ajustes internos em.*/
+            font-weight: 100; /*peso da fonte (consegue deixar em negrito), não existe em todas as fontes.*/ /*lighter normal bold bolder*/
+            font-style: italic; /*estilo da fonte, não existe em todas as fontes.*/
+            text-decoration: underline; /*sublinado na fonte*/
+        }
+
+        /*tem como fazer um shorthand font, seguindo esses parametros em ordem:
+        - font-style -> font-weight -> font-size -> font-family*/
+
+        h1{
+            font: italic bolder 3rem 'Work Sans', sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Titulo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nisi, illum doloremque libero est voluptatibus ad suscipit nobis, illo temporibus saepe omnis ipsum dicta nesciunt commodi nihil. Quod, sint doloribus?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque iste dolorem recusandae atque eum sapiente culpa tempora veniam, modi beatae, dolor quisquam nobis neque impedit veritatis officiis animi. Eius, eligendi.</p>
+        <h2>Titulo 1.2</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim modi labore neque dicta, deleniti ipsam consequuntur ducimus id impedit culpa dolore ipsum accusamus tempora officia sapiente magni ex autem mollitia?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt perspiciatis blanditiis ex consequuntur nam facere molestias quaerat a debitis, doloribus eius praesentium obcaecati incidunt? Quia doloribus perspiciatis rem eum laboriosam.</p>
+    </main>
+</body>
+</html>

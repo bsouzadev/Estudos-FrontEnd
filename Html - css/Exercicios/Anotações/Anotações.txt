@@ -1,0 +1,38 @@
+HTML ---
+h1 = titulo de nivel 1. (tem varios niveis de titulo vai até h6)
+p = paragrafos.
+hr = linha horizontal.
+br = quebra o paragrafo (ou quebra de linha).
+b = negrito.
+i = italico.
+br = quebra de linha.
+abbr = mostrar o que aquela palavra siginifica.
+mark = marca o texto.
+a = link. (usar target = "_blank" para abrir uma nova guia.)
+Para fazer um download de um arquivo via link se usa a tag a + download="nome_do_pdf.pdf" type="nome_do_pdf/pdf" isso serve para zip também, basta trocar /pdf e .pdf por zip´.
+img = imagens, um site bom para achar imagens é no pexels.
+span = "agrupa"
+
+Listas --- Ex 008
+Ordenadas:
+Tem que estar dentro da tag OL (de lista Ordenada), e li.
+Pode mudar o tipo de ordenação da lista, através do comando type em OL.
+
+Não ordenadas:
+Tem que estar dentro da tag UL (de lista não ordenada), e li.
+Pode mudar estilo da lista, através do comando type em UL.
+
+Definições:
+Tem que estar dentro da tag dl, e dentro da tag dl, tem que ter dt que siginifica o termo, e dentro de dt tem que ter dd, que é o significado do termo que está em dt.
+
+CSS --- Ex 013
+Paletas de cores: usar o adobe color, paletton e coolors.
+
+Medidas: rem → base do site, estrutura, tipografia principal
+         em → detalhes internos, componentes, proporções locais
+         px → casos específicos (bordas finas, ícones, sombras, coisas que não devem escalar).
+
+Caixas: Uma caixa é definida por altura (Height), largura (width), borda dentro do elemento (border), afastamento da borda (padding), espaço externo (margin), contorno(borda fora do elemento (outline)).
+
+Tipos de caixas: box-level (div, h1) (se inicia em uma linha nova, e ocupa a largura total da tela, e pula para a proxima linha antes de começar o conteudo), inline-level (span, a) (não pula para a proxima linha, pula para o lado, não ocupa a largura total da tela e desenha a caixa, e após terminar ele continua o conteudo na mesma linha). 
+

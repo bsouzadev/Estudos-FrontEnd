@@ -1,0 +1,16 @@
+body{
+    background-color: lightgrey;
+}
+
+nav{
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.301); /*sombra*/ 
+    background-color: lightslategray;
+    height: 20px;
+    text-align: center;
+    padding: 2rem;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}

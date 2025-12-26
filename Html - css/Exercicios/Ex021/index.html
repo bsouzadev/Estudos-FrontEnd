@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- : PseudoClass    :: PseudoElemento-->
+    <style>
+        a{
+            font-weight: bold;
+            color: black;
+            text-decoration: none;
+        }
+
+        a:visited{
+            color: rgba(137, 43, 226, 0.055);
+        }
+
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: yellow;
+        }
+
+        a::before{
+            content: '👉';
+        }
+    </style>
+</head>
+<body>
+    <h1>Pesonalizando links</h1>
+    <ul>
+        <li><a href="#">GitHub</a></li>
+        <li><a href="#">Youtube</a></li>
+        <li><a href="#">Instagram</a></li>
+    </ul>
+</body>
+</html>

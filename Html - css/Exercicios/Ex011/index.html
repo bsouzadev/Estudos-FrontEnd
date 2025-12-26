@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens que se adaptam sozinhas</title>
+</head>
+<body>
+    <h1>Imagem Dinamica</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/fotop.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/fotom.png" type="image/png">
+        <img src="img/fotog.png" alt="#">
+    </picture>
+
+    <h1>Reproduzindo audios</h1>
+    <p>Reproduzindo audios em HMTL</p>
+    <audio src="midia/teste.mp3" controls autoplay></audio>
+    <!--outro jeito de colocar audio para diversos tipos de navegadores e formatos-->
+    <audio controls>
+        <source src="midia/teste.mp3" type="audio/mpeg">
+        <source src="midia/teste.ogg" type="audio/ogg">
+        <source src="midia/teste.wav" type="audio/wav">
+    </audio>
+</body>
+</html>

@@ -1,0 +1,22 @@
+/* class é . e id é # */
+/* id é para somente um elemento */
+/* class é para mais elementos */
+/* sempre denominar o nome de um id ou class por funcionalidade */
+
+body{
+    background-color: lightgrey;
+    font-family: sans-serif;
+}
+
+h1{
+    color: blueviolet;
+}
+
+h2{
+    color: brown;
+}
+
+#principal{
+    background-color: chocolate;
+    text-align: center;
+}
